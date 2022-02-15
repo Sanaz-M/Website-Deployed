@@ -1,0 +1,55 @@
+#shoppingCart-container{
+    padding: 2rem;
+}
+
+#checkout-mainRow{
+   background-color: rgba(255, 255, 255, 0.918);
+}
+
+#remove-item{
+    font-size: 0.8rem;
+    justify-content: baseline;
+    cursor: pointer;
+}
+
+#remove-item:hover{
+    color: purple;
+}
+
+#shoppingCart-table{
+    color: black;
+    vertical-align: middle;
+    padding: 13px
+}
+
+#shoppingCart-table.table td {
+    vertical-align: middle;
+    width: 25%;
+    font-size: 1.1rem;
+}
+
+#shoppingCart-table.table th {
+    vertical-align: middle;
+    width: 25%;
+    font-size: 1.1rem;
+}
+
+.quantity{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.shoppingCart-changeQuantity{
+    border: 1px solid gray;
+    justify-content: space-evenly;
+    display: flex;
+    width: 65%;
+}
+
+.cart-order-summary{
+    border-bottom: 2px solid #dee2e6;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.9rem;
+}

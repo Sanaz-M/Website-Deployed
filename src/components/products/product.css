@@ -1,0 +1,55 @@
+#productDetails-container{
+    margin-top: 50px;
+}
+
+.product-card{
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.2rem 1.25rem 1.25rem 0;
+}
+
+.product-review-number{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #023e7e;
+}
+
+#product-rate{
+    display: flex;
+}
+
+.btn-success{
+    background-color: #230e1f !important;
+    font-size: 1.2rem;
+    border: transparent;
+    width: 90%;
+    border-radius:40px;
+    font-weight: 400;
+    height: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover{
+    background-color: #58194d !important;
+}
+
+/* Product's Size buttons */
+#size-btn{
+    width: 31%;
+}
+
+
+#crueltyFree-description{
+    font-size: 1rem;
+    padding: 1rem;
+    margin-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* Product Accordion styles */
+.MuiPaper-root.MuiAccordion-rounded{
+    background: transparent;
+}

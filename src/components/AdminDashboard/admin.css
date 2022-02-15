@@ -1,0 +1,13 @@
+#admin-container{
+padding:0;
+background: #0f010f;
+color: rgb(182, 180, 180);
+}
+
+#admin-container .row{
+    margin-right: 0;
+}
+
+.mainSec-home{
+    margin-top:60px;
+}

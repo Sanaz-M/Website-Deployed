@@ -1,0 +1,94 @@
+#admin-producrList{
+    width: 100%;
+    background-color: #0f010f;
+    color: rgb(182, 180, 180);
+    padding:0;
+    min-height: 100vh;
+}
+
+#admin-singleProduct-container{
+    background-color: #0f010f;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.product-secondRow{
+    margin-right: 0 !important;
+}
+
+.table.product-table{
+    width: 90%;
+}
+
+#admin-userList-container{
+    background-color: #0f010f;
+    color: rgb(182, 180, 180);
+    padding:0;
+    min-height: 100vh;
+}
+
+#admin-singleUser-container{
+    background-color: #0f010f;
+    min-height: 100vh; 
+    width: 100%;
+}
+
+.user-secondRow{
+width: 100%;
+color: rgb(182, 180, 180); 
+margin-bottom: 20px;
+}
+
+.table{
+    color: rgb(182, 180, 180); 
+}
+
+.update-btn{
+    background-color: #256109b8;
+    border-color: #256109b8;
+}
+
+.update-btn:hover{
+    background-color: #163d04b8;
+    border-color: #163d04b8;
+}
+
+.table-hover tbody tr:hover{
+    color: white;
+}
+
+.dashboard-deleteBtn{
+    background-color: #d34508;
+    border-color: #d34508;
+}
+
+.dashboard-deleteBtn:hover{
+    background-color: #d34508a6;
+    border-color: #d34508;
+}
+
+.form-row{
+    padding: 80px;
+    justify-content:center;
+}
+
+.form-control{
+    border: 1px solid #9f5fa8;
+    background-color: #180b18;
+    color: rgb(255, 255, 255);
+}
+
+.admin-save-btn{
+    background-color: #256109b8;
+    border-color: #256109b8;
+}
+
+.admin-save-btn:hover{
+    background-color: #163d04b8;
+    border-color: #163d04b8;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
